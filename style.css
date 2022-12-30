@@ -9,11 +9,23 @@
 
 body {
   background: #343541;
+  /* height: 100vh; */
+}
+
+header{
+  background: #40414F;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+  color: rgb(245, 24, 83);
+  height: 8vh;
 }
 
 #app {
   width: 100vw;
-  height: 100vh;
+  height: 90vh;
   background: #343541;
 
   display: flex;
@@ -77,13 +89,14 @@ body {
 }
 
 .ai .profile {
-  background: #10a37f;
+  background: #33e0b4;
 }
 
 .profile img {
-  width: 60%;
-  height: 60%;
+  width: 100%;
+  height: 100%;
   object-fit: contain;
+  border-radius: 5px;
 }
 
 .message {
@@ -122,6 +135,12 @@ form {
   display: flex;
   flex-direction: row;
   gap: 10px;
+  border: 2px solid #ee0970;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  margin: 0px 10px;
+  outline: none;
+  border-radius: 10px;
 }
 
 textarea {
@@ -135,6 +154,7 @@ textarea {
   border-radius: 5px;
   border: none;
   outline: none;
+ 
 }
 
 button {
@@ -147,4 +167,30 @@ button {
 form img {
   width: 30px;
   height: 30px;
+}
+
+i {
+  color: #fff;
+  font-size: 20px;
+}
+/* mobile device  */
+
+@media screen and (max-width: 768px) {
+  .chat {
+    flex-direction: column;
+  }
+
+  .profile {
+    margin-bottom: 10px;
+  }
+
+  form{
+  border: 4px solid  #ee0970;
+  padding: 10px;
+  }
+  #app{
+
+    height: 91vh;
+  }
+
 }
