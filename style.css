@@ -18,14 +18,13 @@ header{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 5px;
   color: rgb(245, 24, 83);
-  height: 8vh;
+  height: 7vh;
 }
 
 #app {
   width: 100vw;
-  height: 90vh;
+  height:calc(100vh - 7vh);
   background: #343541;
 
   display: flex;
@@ -141,6 +140,7 @@ form {
   margin: 0px 10px;
   outline: none;
   border-radius: 10px;
+
 }
 
 textarea {
@@ -184,13 +184,11 @@ i {
     margin-bottom: 10px;
   }
 
-  form{
-  border: 4px solid  #ee0970;
+  /* form{
+  border: 2px solid  #ee0970;
   padding: 10px;
-  }
-  #app{
-
-    height: 91vh;
-  }
+  margin: 0px 10px;
+  } */
+ 
 
 }
