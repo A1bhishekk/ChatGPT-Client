@@ -26,26 +26,24 @@ header{
   width: 100vw;
   height:calc(100vh - 7vh);
   background: #343541;
-
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  padding: 10px;
+  
 }
 
 #chat_container {
   flex: 1;
   width: 100%;
-  height: 100%;
+  height: 90%;
   overflow-y: scroll;
-
   display: flex;
   flex-direction: column;
   gap: 10px;
-
   -ms-overflow-style: none;
   scrollbar-width: none;
-
   padding-bottom: 20px;
   scroll-behavior: smooth;
 }
@@ -68,7 +66,6 @@ header{
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
-
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -100,10 +97,8 @@ header{
 
 .message {
   flex: 1;
-
   color: #dcdcdc;
   font-size: 20px;
-
   max-width: 100%;
   overflow-x: scroll;
 
@@ -126,18 +121,17 @@ header{
 
 form {
   width: 100%;
-  max-width: 1280px;
-  margin: 0 auto;
+  /* max-width: 1280px; */
+  /* margin: 0 auto; */
   padding: 10px;
   background: #40414F;
-
   display: flex;
   flex-direction: row;
   gap: 10px;
   border: 2px solid #ee0970;
-  margin-bottom: 5px;
+  /* margin-bottom: 5px; */
   padding: 5px 10px;
-  margin: 0px 10px;
+  /* margin: 0px 10px; */
   outline: none;
   border-radius: 10px;
 
